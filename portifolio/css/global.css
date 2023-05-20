@@ -28,27 +28,3 @@ img {
   max-width: 5ch; /* Define a largura máxima do contêiner como 5 caracteres */
 }
 
-.experiencia .subtitulo {
-  color: #e0e0e0; 
-}
-
-.experiencia-texto {
-  font-size: 1.5rem; 
-  line-height: 1.33; /* Define a altura da linha como 1.33, criando um espaçamento adequado */
-  max-width: 40ch; /* Define a largura máxima do contêiner como 40 caracteres */
-  margin-bottom: 60px; /* Define a margem inferior como 60 pixels */
-  color: #525252; 
-}
-
-.experiencia-texto strong {
-  color: #141414; 
-}
-
-.empresa {
-  display: grid; /* Define o elemento com classe 'empresa' como um grid */
-  grid-template-columns: 1fr 1fr; /* Define o modelo de grade com duas colunas de largura igual */
-  padding: 20px; /* Define o preenchimento interno do elemento como 20 pixels */
-  background: #f5f5f5; 
-  margin-bottom: 20px; 
-}
-
