@@ -1,65 +1,63 @@
 .introducao {
-    max-width: 1200px;
-    padding: 40 px 20px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 4fr 2fr;
-    gap: 100px;
-    align-items: center;
+    max-width: 1200px; /* Define a largura máxima do elemento como 1200 pixels */
+    padding: 40px 20px; /* Define o preenchimento interno superior e inferior como 40 pixels, e o preenchimento interno esquerdo e direito como 20 pixels */
+    margin: 0 auto; /* Define margem superior e inferior como 0 e margem esquerda e direita como "auto", centralizando o elemento horizontalmente */
+    display: grid; 
+    grid-template-columns: 4fr 2fr; /* Define o modelo de grade com duas colunas, a primeira com uma largura de 4 frações e a segunda com uma largura de 2 frações */
+    gap: 100px; 
+    align-items: center; /* Centraliza verticalmente os itens do grid */
 }
 
 .introducao h1 {
     font-size: 4.5rem;
-    line-height: 1.125;
-    margin-bottom: 30px;
-    position: relative;
-    
+    line-height: 1.125; /* Define a altura da linha como 1.125 */
+    margin-bottom: 30px; /* Define a margem inferior como 30 pixels */
+    position: relative; /* Define o posicionamento do elemento como relativo */
 }
 
 .introducao h1::before {
-    content: '';
-    display: block;
-    width: 130px;
-    height: 100px;
-    background: url('/img/detalhe.svg') no-repeat center;
-    position: absolute;
+    content: ''; /* Adiciona conteúdo vazio antes do elemento h1 */
+    display: block; /* Define o elemento como um bloco */
+    width: 130px; 
+    height: 100px; 
+    background: url('/img/detalhe.svg') no-repeat center; /* Define uma imagem de plano de fundo (detalhe.svg) para o elemento, posicionando-a no centro e sem repetição */
+    position: absolute; /* Define o posicionamento do elemento como absoluto */
     top: -15px; 
-    left: -40px;
-    z-index: -1;
+    left: -40px; 
+    z-index: -1; /* Define o índice z do elemento como -1, colocando-o atrás do conteúdo principal */
 }
 
 .introducao p {
-    font-size: 1.5rem;
-    color: #525252;
+    font-size: 1.5rem; 
+    color: #525252; 
 }
-
 
 @media(max-width: 1000px) {
     .introducao h1 {
-        font-size: 3rem;
+        font-size: 3rem; /* Modifica o tamanho da fonte do elemento h1 para 3 rem em dispositivos com largura máxima de 1000 pixels */
     }
 }
 
 @media (max-width: 800px) {
     .introducao {
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
+        grid-template-columns: 1fr 1fr; /* Modifica o modelo de grade para duas colunas de largura igual em dispositivos com largura máxima de 800 pixels */
+        gap: 40px; /* Modifica o espaçamento entre as colunas do grid para 40 pixels em dispositivos com largura máxima de 800 pixels */
     }
     .introducao h1 {
-        font-size: 2rem;
+        font-size: 2rem; /* Modifica o tamanho da fonte do elemento h1 para 2 rem em dispositivos com largura máxima de 800 pixels */
     }
     .introducao h1::before {
-        width: 30px;
-        height: 10px;
-        left: 0px;
+        width: 30px; /* Modifica a largura do elemento ::before para 30 pixels em dispositivos com largura máxima de 800 pixels */
+        height: 10px; /* Modifica a altura do elemento ::before para 10 pixels em dispositivos com largura máxima de 800 pixels */
+        left: 0px; /* Modifica a posição esquerda do elemento ::before para 0 pixels em dispositivos com largura máxima de 800 pixels */
     }
 }
 
 @media (max-width: 400px) {
     .introducao {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Modifica o modelo de grade para uma única coluna em dispositivos com largura máxima de 400 pixels */
     }
     .introducao img {
-        display: none;
+        display: none; /* Oculta as imagens dentro do elemento introducao em dispositivos com largura máxima de 400 pixels */
     }
 }
