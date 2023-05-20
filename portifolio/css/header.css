@@ -9,8 +9,8 @@
 
 .header-menu {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -20,7 +20,7 @@
   padding: 10px 20px;
   text-decoration: none;
   color: #141414;
-  display: block;
+  display: flex;
 }
 
 @media (max-width: 800px) {
@@ -29,6 +29,7 @@
     gap: 40px;
     padding: 20px;
   }
+
   .header a {
     background: #f5f5f5;
     border-radius: 4px;
