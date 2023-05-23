@@ -3,7 +3,7 @@
     padding: 40px 20px; /* Define o preenchimento interno superior e inferior como 40 pixels, e o preenchimento interno esquerdo e direito como 20 pixels */
     margin: 0 auto; /* Define margem superior e inferior como 0 e margem esquerda e direita como "auto", centralizando o elemento horizontalmente */
     display: grid; 
-    grid-template-columns: 4fr 2fr; /* Define o modelo de grade com duas colunas, a primeira com uma largura de 4 frações e a segunda com uma largura de 2 frações */
+    grid-template-columns: 1fr 2fr; /* Define o modelo de grade com duas colunas, a primeira com uma largura de 4 frações e a segunda com uma largura de 2 frações */
     gap: 100px; 
     align-items: center; /* Centraliza verticalmente os itens do grid */
 }
