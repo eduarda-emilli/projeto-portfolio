@@ -16,6 +16,7 @@ ul {
 
 img {
   max-width: 100%; /* Define a largura máxima da imagem como 100% */
+  height: auto;
   display: block; /* Define a imagem como elemento de bloco */
 }
 
