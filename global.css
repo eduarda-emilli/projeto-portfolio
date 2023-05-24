@@ -2,7 +2,6 @@ body {
   margin: 0px; /* Define a margem do corpo como 0 pixels */
   font-family: 'Fira Sans', Arial, sans-sefif; 
   color: #141414; 
-  margin-bottom: 1000px; 
 }
 
 h1, h2, h3, p {
@@ -32,7 +31,7 @@ img {
   .subtitulo {
      font-size: 3rem;
      text-transform: capitalize;
-     max-width: initial;
+     max-width: initial !important;
   }
 }
 
