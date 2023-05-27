@@ -20,7 +20,7 @@
     display: block; /* Define o elemento como um bloco */
     width: 130px; 
     height: 100px; 
-    background: url('./img/detalhe.svg') no-repeat center; /* Define uma imagem de plano de fundo (detalhe.svg) para o elemento, posicionando-a no centro e sem repetição */
+    background: url('/img/detalhe.svg') no-repeat center; /* Define uma imagem de plano de fundo (detalhe.svg) para o elemento, posicionando-a no centro e sem repetição */
     position: absolute; /* Define o posicionamento do elemento como absoluto */
     top: -15px; 
     left: -40px; 
